@@ -1,0 +1,1 @@
+exports.error = (res, message, code) => res.status(code || 400).json({ success: false, message });
